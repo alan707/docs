@@ -42,5 +42,6 @@ shopt -s cmdhist
 ```
 Store history immediately
 By default, Bash only records a session to the .bash_history file on disk when the session terminates. This means that if you crash or your session terminates improperly, you lose the history up to that point. You can fix this by recording each line of history as you issue it, through the $PROMPT_COMMAND variable:
-
+```
 PROMPT_COMMAND='history -a'
+```
