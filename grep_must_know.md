@@ -1,4 +1,4 @@
-# Replace a String in Multiple Files in Linux Using Grep and Sed
+## Replace a String in Multiple Files in Linux Using Grep and Sed
 To replace every occurrence of a certain word / string in a ton of files spanning multiple directories, use grep to search for a certain word and if it find it, run sed to replace the strings you want. 
 
 ## Usage
