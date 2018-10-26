@@ -1,10 +1,6 @@
 # A Better Way To Manage Your Bash History
 
-I've always wanted to be able to hit the up arrow and 
-
 Initial Inspiration: [https://sanctum.geek.nz/arabesque/better-bash-history/](https://sanctum.geek.nz/arabesque/better-bash-history/)
-
-I always
 
 Append history instead of rewriting it
 You should start by setting the histappend option, which will mean that when you close a session, your history will be appended to the .bash_history file rather than overwriting what’s in there.
